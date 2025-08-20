@@ -1,0 +1,15 @@
+name: robo
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - opencv
+  - numpy
+  - pip:
+      - ultralytics
+
